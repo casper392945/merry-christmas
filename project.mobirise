@@ -1,0 +1,179 @@
+{
+  "settings": {
+    "name": "Merry Christmas and a very Happy New Year!",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise5",
+      "title": "Mobirise 5",
+      "styling": {
+        "primaryColor": "#6592e6",
+        "secondaryColor": "#ff6666",
+        "successColor": "#40b0bf",
+        "infoColor": "#47b5ed",
+        "warningColor": "#FFE161",
+        "dangerColor": "#ff9966",
+        "mainFont": "Jost",
+        "display1Font": "Mountains of Christmas",
+        "display1Size": "5",
+        "display2Font": "Mountains of Christmas",
+        "display2Size": 3,
+        "display5Font": "Mountains of Christmas",
+        "display5Size": 2,
+        "display7Font": "Mountains of Christmas",
+        "display7Size": "1.8",
+        "display4Font": "Mountains of Christmas",
+        "display4Size": 1.1,
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.2.2",
+    "siteFonts": [
+      {
+        "css": "'Mountains of Christmas', display",
+        "name": "Mountains of Christmas",
+        "url": "https://fonts.googleapis.com/css?family=Mountains+of+Christmas:400,700"
+      }
+    ],
+    "favicon": "@PROJECT_PATH@/assets/images/favicon.ico",
+    "mbrsiteDomain": "phpruv48wc",
+    "imageResize": false,
+    "cssOptimize": false,
+    "lazyLoad": false,
+    "lazyType": "nothing",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "pwa-switcher": false,
+    "publishChangesOnly": true,
+    "uniqCompNum": 3,
+    "versionPublish": "5.2.2"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Merry Christmas and a very Happy New Year!",
+        "meta_descr": "Merry Christmas and a very Happy New Year!",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr.jpg"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            ".wrapper": {
+              "text-shadow": "2px 2px #ff0000",
+              "backdrop-filter": "blur(10px)",
+              "position": "relative",
+              "border": "1px solid #ffffff",
+              "border-radius": "5px",
+              "padding": "2.5rem 2.5rem"
+            },
+            ".snow1": {
+              "background": "url(https://ya-webdesign.com/images250_/snow-background-png.png)",
+              "background-repeat": "repeat",
+              "width": "100%",
+              "height": "100vh",
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "animation": "neve1 10s infinite linear"
+            },
+            ".snow2": {
+              "background": "url(https://ya-webdesign.com/images250_/snow-background-png.png)",
+              "background-repeat": "repeat",
+              "width": "100%",
+              "height": "100vh",
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "animation": "neve2 10s infinite linear",
+              "background-size": "800px",
+              "filter": "blur(1.5px)"
+            },
+            ".snow3": {
+              "background": "url(https://ya-webdesign.com/images250_/snow-background-png.png)",
+              "background-repeat": "repeat",
+              "width": "100%",
+              "height": "100vh",
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "animation": "neve3 10s infinite linear",
+              "background-size": "1600px",
+              "filter": "blur(1px)"
+            },
+            "@keyframes neve1": {
+              "0%": {
+                "background-position": "0px 0px"
+              },
+              "100%": {
+                "background-position": "100px 650px"
+              }
+            },
+            "@keyframes neve2": {
+              "0%": {
+                "background-position": "0px -100px"
+              },
+              "100%": {
+                "background-position": "0px 650px"
+              }
+            },
+            "@keyframes neve3": {
+              "0%": {
+                "background-position": "0px 100px"
+              },
+              "100%": {
+                "background-position": "300px 650px"
+              }
+            },
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#ffffff"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "center",
+              "color": "#ffffff"
+            },
+            ".mbr-text, .mbr-section-btn, .social-row": {
+              "text-align": "center",
+              "color": "#ffffff"
+            }
+          },
+          "_name": "header13",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"header13\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        \n        \n        \n        \n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mbr.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#bbbbbb\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n  <div class=\"snow1\"></div>\n  <div class=\"snow2\"></div>\n  <div class=\"snow3\"></div>\n\n    <div class=\"container\">\n            <div class=\"wrapper justify-content-center\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Wishing you and your family Merry Christmas and a very Happy New Year!</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Have a great holiday and a fantastic year ahead!<br>Merry Christmas and Happy New Year!</h2>\n                <p class=\"mbr-text mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn, .social-row\"></p>\n            </div>\n        </div>\n</section>",
+          "_cid": "sjYCc7CKjg",
+          "_anchor": "header13-0",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
